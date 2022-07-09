@@ -27,4 +27,16 @@ Following the above analysis, I was then tasked with reviewing the number of ret
 
 
 ## PH Analysis Summary
-'XX' roles will need to be filled. 
+According to the SQL code
+'''
+SELECT COUNT(ut.title)
+FROM unique_titles as ut
+'''
+72,458 employees are likely going to be retiring in the coming years. Whereas based on the criteria provided by PH, only 1549 current employees eligible for the company's new mentorship program. 
+
+(_mentor candidates by title_)                  (_mentor candidates by department_)
+[Image of eligible employees by title][Image of eligible employees by department]
+
+The tables above display the distribution of current employees that are elibile for participating in the mentorship program, onboarding the next generation of senior staff. When comparing these lists of mentors with the breakdown on soon-to-be retiring employees, its clear that PH will likely need to widen its criteria for eligible mentors.
+
+(_retiring employees by title_)                 (_retiring employees by department_)
